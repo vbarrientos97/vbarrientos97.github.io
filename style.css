@@ -406,7 +406,7 @@ footer {
   }
   .navigation {
     margin: 18px auto;
-    width: 100%;
+    width: 90%;
   }
   .nav-item {
   text-align: center;
@@ -437,5 +437,9 @@ footer {
 @media only screen and (max-width: 1080px) {
   .window {
     width: 276px;
+  }
+  .arrow {
+    height: 50px;
+    width: 50px;
   }
 }

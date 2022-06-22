@@ -404,6 +404,9 @@ footer {
     height: 320px;
     width: 320px;
   }
+  .intro {
+    width: 70%;
+  }
   .navigation {
     margin: 18px auto;
     width: 90%;
@@ -436,10 +439,18 @@ footer {
 
 @media only screen and (max-width: 1080px) {
   .window {
-    width: 276px;
+    width: 312px;
   }
   .arrow {
     height: 50px;
     width: 50px;
+  }
+  .intro {
+    width: 90%;
+  }
+  .carousel {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
